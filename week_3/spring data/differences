@@ -1,0 +1,29 @@
+Java Persistence API (JPA)-
+
+What it is: A Java specification (JSR 338) that defines a standard for ORM (Object-Relational Mapping).
+Purpose: Specifies how Java objects are mapped to database tables and how to manage persistent data.
+Key Point: JPA is only an interface/specification — it does not provide an actual implementation.
+Developers use JPA annotations like @Entity, @Id, and JPA interfaces like EntityManager for persistence operations.
+You need a JPA implementation (provider) to use it.
+
+
+Hibernate-
+
+What it is: A popular open-source ORM framework.
+Role: One of the most widely used implementations of the JPA specification.
+Features:
+Provides the actual runtime code that maps Java classes to DB tables.
+Supports JPA interfaces and annotations.
+Offers additional features beyond JPA like caching, lazy loading, criteria queries.
+You can use Hibernate directly (native Hibernate API) or via the JPA API (recommended for portability).
+
+
+Spring Data JPA-
+
+What it is: A Spring framework project that provides an abstraction layer on top of JPA implementations (like Hibernate).
+Purpose: To simplify data access by removing boilerplate code (e.g., writing DAO or repository implementations).
+Features:
+Provides ready-to-use interfaces (JpaRepository, CrudRepository).
+Supports method name-based query generation (e.g., findByName()).
+Integrates seamlessly with Spring ecosystem (transaction management, dependency injection).
+Internally it uses JPA + a JPA provider like Hibernate.

@@ -1,0 +1,5 @@
+Inside main
+Start
+Hibernate: select country0_.code as code1_0_, country0_.name as name2_0_ from country country0_
+countries=[Country [code=IN, name=India], Country [code=US, name=United States of America]]
+End

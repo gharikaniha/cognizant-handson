@@ -1,0 +1,8 @@
+Connected to Oracle DB
+Updated interest rate for 2 customers over 60.
+Set VIP status for 2 customers.
+
+Updated Customer List:
+Name: John Doe, Age: 65, Balance: 15000.00, InterestRate: 4.50%, VIP: TRUE
+Name: Jane Smith, Age: 45, Balance: 9000.00, InterestRate: 6.20%, VIP: FALSE
+Name: Alice Brown, Age: 70, Balance: 11000.00, InterestRate: 3.90%, VIP: TRUE

@@ -1,0 +1,11 @@
+SavingsAccounts:
+AccountID=101, CustomerID=1, Balance=	1010.00
+AccountID=102, CustomerID=2, Balance=	2020.00
+
+Employees in Dept 10:
+EmployeeID=201, Name=Alice, Salary=	5500.00
+EmployeeID=203, Name=Charlie, Salary=	6050.00
+
+Accounts:
+AccountID=301, CustomerID=1, Balance=	4000.00
+AccountID=302, CustomerID=2, Balance=	4000.00

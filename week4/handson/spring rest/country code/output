@@ -1,0 +1,10 @@
+request : 
+GET http://localhost:8083/countries/in
+
+
+
+response :
+{
+  "code": "IN",
+  "name": "India"
+}

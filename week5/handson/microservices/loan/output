@@ -1,0 +1,15 @@
+{
+  "number": "00987987973432",
+  "type": "savings",
+  "balance": 234343
+}
+
+
+
+{
+  "number": "H00987987972342",
+  "type": "car",
+  "loan": 400000,
+  "emi": 3258,
+  "tenure": 18
+}

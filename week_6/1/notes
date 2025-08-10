@@ -1,0 +1,34 @@
+1. Define SPA and Its Benefits
+SPA (Single Page Application) is a web app that loads a single HTML page and dynamically updates content without refreshing the entire page.
+ Benefits:
+Faster navigation after initial load.
+Reduced server load since most rendering is done on the client.
+Better user experience with smooth transitions.
+Ideal for dynamic data and interactions (e.g., Gmail, Twitter).
+
+2. Define React and Identify Its Working
+React is a JavaScript library developed by Facebook for building user interfaces, especially SPAs.
+How React Works:
+Uses components to break the UI into reusable pieces.
+Implements a Virtual DOM to efficiently update only changed elements.
+Enables reactive rendering — automatically updates the UI when data changes.
+
+3. Differences Between SPA and MPA
+Feature	SPA	MPA (Multi-Page Application)
+Page Reload	No (dynamic updates)	Yes (full reload for each page)
+Speed	Fast (after first load)	Slower
+SEO Support	Limited (requires extra setup)	Better (natural HTML per page)
+Development Focus	Frontend-heavy	Backend-heavy
+
+4. Pros & Cons of Single-Page Application
+Pros:
+Fast user interactions
+Smooth UX
+Reduced bandwidth
+Easier to convert to mobile apps
+Cons:
+SEO challenges
+Initial load can be heavy
+Browser history/back button issues
+JavaScript dependency
+

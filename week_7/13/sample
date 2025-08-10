@@ -1,0 +1,16 @@
+// shared within App.js
+export const books = [
+  { id: 101, bname: 'Master React', price: 670 },
+  { id: 102, bname: 'Deep Dive into Angular 11', price: 800 },
+  { id: 103, bname: 'Mongo Essentials', price: 450 }
+];
+
+export const blogs = [
+  { id: 1, title: 'React vs Angular', author: 'John' },
+  { id: 2, title: 'JS Best Practices', author: 'Sarah' }
+];
+
+export const courses = [
+  { id: 'c1', name: 'React Basics', duration: '6 weeks' },
+  { id: 'c2', name: 'Advanced JavaScript', duration: '8 weeks' }
+];

@@ -1,0 +1,45 @@
+* master
+  GitNewBranch
+
+
+Switched to branch 'GitNewBranch'
+
+
+[GitNewBranch abc1234] Add file in GitNewBranch
+ 1 file changed, 1 insertion(+)
+ create mode 100644 branchfile.txt
+
+
+On branch GitNewBranch
+nothing to commit, working tree clean
+
+
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+
+diff --git a/branchfile.txt b/branchfile.txt
+new file mode 100644
+index 0000000..e69de29
+--- /dev/null
++++ b/branchfile.txt
+@@
++Branch-specific changes
+
+
+Updating 1a2b3c4..abc1234
+Fast-forward
+ branchfile.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 branchfile.txt
+
+
+* abc1234 (HEAD -> master, GitNewBranch) Add file in GitNewBranch
+* 1a2b3c4 Initial commit
+
+
+Deleted branch GitNewBranch (was abc1234).
+
+
+On branch master
+nothing to commit, working tree clean

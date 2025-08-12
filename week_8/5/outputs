@@ -1,0 +1,22 @@
+On branch master
+nothing to commit, working tree clean
+
+
+* master
+  feature-branch
+  remotes/origin/master
+  remotes/origin/feature-branch
+
+
+Updating abc123..def456
+Fast-forward
+ file.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+$ git push origin master
+Everything up-to-date

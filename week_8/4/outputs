@@ -1,0 +1,20 @@
+On branch master
+nothing to commit, working tree clean
+
+
+Auto-merging hello.xml
+CONFLICT (content): Merge conflict in hello.xml
+Automatic merge failed; fix conflicts and then commit the result.
+
+
+Deleted branch GitWork (was <commit-hash>).
+
+
+*   123abcd (HEAD -> master) Resolve merge conflict in hello.xml
+|\  
+| * abc9876 Add hello.xml in GitWork
+* | def4567 Add hello.xml in master
+|/  
+* 1122334 Initial commit
+
+
